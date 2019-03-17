@@ -4,330 +4,308 @@
   padding: 0;
   margin: 0; }
 
-/* line 7, ../scss/_variables.scss */
+/* line 8, ../scss/_variables.scss */
 .row {
   margin-bottom: 15px; }
-  /* line 9, ../scss/_variables.scss */
+  /* line 10, ../scss/_variables.scss */
   .row::after {
     clear: both;
     display: block;
     content: ''; }
 
-/* line 21, ../scss/_variables.scss */
+/* line 17, ../scss/_variables.scss */
+.col {
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+/* line 24, ../scss/_variables.scss */
 .col1 {
   width: 8.3333333333%; }
 
-/* line 21, ../scss/_variables.scss */
-.col2 {
-  width: 16.6666666667%; }
-
-/* line 21, ../scss/_variables.scss */
-.col3 {
-  width: 25%; }
-
-/* line 21, ../scss/_variables.scss */
-.col4 {
-  width: 33.3333333333%; }
-
-/* line 21, ../scss/_variables.scss */
-.col5 {
-  width: 41.6666666667%; }
-
-/* line 21, ../scss/_variables.scss */
-.col6 {
-  width: 50%; }
-
-/* line 21, ../scss/_variables.scss */
-.col7 {
-  width: 58.3333333333%; }
-
-/* line 21, ../scss/_variables.scss */
-.col8 {
-  width: 66.6666666667%; }
-
-/* line 21, ../scss/_variables.scss */
-.col9 {
-  width: 75%; }
-
-/* line 21, ../scss/_variables.scss */
-.col10 {
-  width: 83.3333333333%; }
-
-/* line 21, ../scss/_variables.scss */
-.col11 {
-  width: 91.6666666667%; }
-
-/* line 21, ../scss/_variables.scss */
-.col12 {
-  width: 100%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM1 {
-  width: 8.3333333333%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM2 {
-  width: 16.6666666667%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM3 {
-  width: 25%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM4 {
-  width: 33.3333333333%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM5 {
-  width: 41.6666666667%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM6 {
-  width: 50%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM7 {
-  width: 58.3333333333%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM8 {
-  width: 66.6666666667%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM9 {
-  width: 75%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM10 {
-  width: 83.3333333333%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM11 {
-  width: 91.6666666667%; }
-
-/* line 31, ../scss/_variables.scss */
-.colM12 {
-  width: 100%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL1 {
-  width: 8.3333333333%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL2 {
-  width: 16.6666666667%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL3 {
-  width: 25%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL4 {
-  width: 33.3333333333%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL5 {
-  width: 41.6666666667%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL6 {
-  width: 50%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL7 {
-  width: 58.3333333333%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL8 {
-  width: 66.6666666667%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL9 {
-  width: 75%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL10 {
-  width: 83.3333333333%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL11 {
-  width: 91.6666666667%; }
-
-/* line 41, ../scss/_variables.scss */
-.colL12 {
-  width: 100%; }
-
-/* line 51, ../scss/_variables.scss */
+/* line 28, ../scss/_variables.scss */
 .offset1 {
   margin-left: 8.3333333333%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col2 {
+  width: 16.6666666667%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset2 {
   margin-left: 16.6666666667%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col3 {
+  width: 25%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset3 {
   margin-left: 25%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col4 {
+  width: 33.3333333333%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset4 {
   margin-left: 33.3333333333%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col5 {
+  width: 41.6666666667%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset5 {
   margin-left: 41.6666666667%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col6 {
+  width: 50%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset6 {
   margin-left: 50%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col7 {
+  width: 58.3333333333%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset7 {
   margin-left: 58.3333333333%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col8 {
+  width: 66.6666666667%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset8 {
   margin-left: 66.6666666667%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col9 {
+  width: 75%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset9 {
   margin-left: 75%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col10 {
+  width: 83.3333333333%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset10 {
   margin-left: 83.3333333333%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col11 {
+  width: 91.6666666667%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset11 {
   margin-left: 91.6666666667%; }
 
-/* line 51, ../scss/_variables.scss */
+/* line 24, ../scss/_variables.scss */
+.col12 {
+  width: 100%; }
+
+/* line 28, ../scss/_variables.scss */
 .offset12 {
   margin-left: 100%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM1 {
-  margin-left: 8.3333333333%; }
+@media (min-width: 768px) {
+  /* line 38, ../scss/_variables.scss */
+  .colM1 {
+    width: 8.3333333333%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM2 {
-  margin-left: 16.6666666667%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM1 {
+    margin-left: 8.3333333333%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM3 {
-  margin-left: 25%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM2 {
+    width: 16.6666666667%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM4 {
-  margin-left: 33.3333333333%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM2 {
+    margin-left: 16.6666666667%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM5 {
-  margin-left: 41.6666666667%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM3 {
+    width: 25%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM6 {
-  margin-left: 50%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM3 {
+    margin-left: 25%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM7 {
-  margin-left: 58.3333333333%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM4 {
+    width: 33.3333333333%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM8 {
-  margin-left: 66.6666666667%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM4 {
+    margin-left: 33.3333333333%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM9 {
-  margin-left: 75%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM5 {
+    width: 41.6666666667%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM10 {
-  margin-left: 83.3333333333%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM5 {
+    margin-left: 41.6666666667%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM11 {
-  margin-left: 91.6666666667%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM6 {
+    width: 50%; }
 
-/* line 61, ../scss/_variables.scss */
-.offsetM12 {
-  margin-left: 100%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM6 {
+    margin-left: 50%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL1 {
-  margin-left: 8.3333333333%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM7 {
+    width: 58.3333333333%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL2 {
-  margin-left: 16.6666666667%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM7 {
+    margin-left: 58.3333333333%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL3 {
-  margin-left: 25%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM8 {
+    width: 66.6666666667%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL4 {
-  margin-left: 33.3333333333%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM8 {
+    margin-left: 66.6666666667%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL5 {
-  margin-left: 41.6666666667%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM9 {
+    width: 75%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL6 {
-  margin-left: 50%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM9 {
+    margin-left: 75%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL7 {
-  margin-left: 58.3333333333%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM10 {
+    width: 83.3333333333%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL8 {
-  margin-left: 66.6666666667%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM10 {
+    margin-left: 83.3333333333%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL9 {
-  margin-left: 75%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM11 {
+    width: 91.6666666667%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL10 {
-  margin-left: 83.3333333333%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM11 {
+    margin-left: 91.6666666667%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL11 {
-  margin-left: 91.6666666667%; }
+  /* line 38, ../scss/_variables.scss */
+  .colM12 {
+    width: 100%; }
 
-/* line 71, ../scss/_variables.scss */
-.offsetL12 {
-  margin-left: 100%; }
+  /* line 42, ../scss/_variables.scss */
+  .offsetM12 {
+    margin-left: 100%; } }
+@media (min-width: 1200px) {
+  /* line 53, ../scss/_variables.scss */
+  .colL1 {
+    width: 8.3333333333%; }
 
-/* line 9, ../scss/style.scss */
-#headerNav {
-  background-color: pink; }
-  /* line 12, ../scss/style.scss */
-  #headerNav ul li {
-    color: blue; }
-  /* line 16, ../scss/style.scss */
-  #headerNav p {
-    width: 50px; }
+  /* line 57, ../scss/_variables.scss */
+  .offsetL1 {
+    margin-left: 8.3333333333%; }
 
-/* line 23, ../scss/style.scss */
-#footerNav ul li {
-  color: green; }
+  /* line 53, ../scss/_variables.scss */
+  .colL2 {
+    width: 16.6666666667%; }
 
-/* line 29, ../scss/style.scss */
-h1 {
-  color: red;
-  background-color: blue; }
+  /* line 57, ../scss/_variables.scss */
+  .offsetL2 {
+    margin-left: 16.6666666667%; }
 
-/* line 33, ../scss/style.scss */
-h5 {
-  color: red;
-  background-color: blue; }
+  /* line 53, ../scss/_variables.scss */
+  .colL3 {
+    width: 25%; }
 
-/* line 37, ../scss/style.scss */
-.button {
-  color: red;
-  background-color: blue; }
+  /* line 57, ../scss/_variables.scss */
+  .offsetL3 {
+    margin-left: 25%; }
+
+  /* line 53, ../scss/_variables.scss */
+  .colL4 {
+    width: 33.3333333333%; }
+
+  /* line 57, ../scss/_variables.scss */
+  .offsetL4 {
+    margin-left: 33.3333333333%; }
+
+  /* line 53, ../scss/_variables.scss */
+  .colL5 {
+    width: 41.6666666667%; }
+
+  /* line 57, ../scss/_variables.scss */
+  .offsetL5 {
+    margin-left: 41.6666666667%; }
+
+  /* line 53, ../scss/_variables.scss */
+  .colL6 {
+    width: 50%; }
+
+  /* line 57, ../scss/_variables.scss */
+  .offsetL6 {
+    margin-left: 50%; }
+
+  /* line 53, ../scss/_variables.scss */
+  .colL7 {
+    width: 58.3333333333%; }
+
+  /* line 57, ../scss/_variables.scss */
+  .offsetL7 {
+    margin-left: 58.3333333333%; }
+
+  /* line 53, ../scss/_variables.scss */
+  .colL8 {
+    width: 66.6666666667%; }
+
+  /* line 57, ../scss/_variables.scss */
+  .offsetL8 {
+    margin-left: 66.6666666667%; }
+
+  /* line 53, ../scss/_variables.scss */
+  .colL9 {
+    width: 75%; }
+
+  /* line 57, ../scss/_variables.scss */
+  .offsetL9 {
+    margin-left: 75%; }
+
+  /* line 53, ../scss/_variables.scss */
+  .colL10 {
+    width: 83.3333333333%; }
+
+  /* line 57, ../scss/_variables.scss */
+  .offsetL10 {
+    margin-left: 83.3333333333%; }
+
+  /* line 53, ../scss/_variables.scss */
+  .colL11 {
+    width: 91.6666666667%; }
+
+  /* line 57, ../scss/_variables.scss */
+  .offsetL11 {
+    margin-left: 91.6666666667%; }
+
+  /* line 53, ../scss/_variables.scss */
+  .colL12 {
+    width: 100%; }
+
+  /* line 57, ../scss/_variables.scss */
+  .offsetL12 {
+    margin-left: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

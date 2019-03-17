@@ -5,35 +5,3 @@
 }
 
 @import 'variables';
-
-#headerNav{
-	background-color: $mainColour;
-	ul{
-		li{
-			color: blue;
-		}
-	}
-	p{ 
-		width: 50px
-	 }
-}
-
-#footerNav{
-	ul{
-		li{
-			color: green;
-		}
-	}
-}
-
-h1{
-	@include colourLayout;
-}
-
-h5{
-	@include colourLayout;
-}
-
-.button{
-	@include colourLayout;
-}

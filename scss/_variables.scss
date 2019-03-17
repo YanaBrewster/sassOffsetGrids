@@ -1,83 +1,61 @@
-
+$columns: 12;
+$columnWidth: 100% / $columns;
 
 $mdWidth: 768px;
 $lgWidth: 1200px;
 
 
 .row{
-	margin-bottom: 15px;
-	&::after{
-		clear: both;
-		display: block;
-		content: '';
-	}
+    margin-bottom: 15px;
+    &::after{
+        clear: both;
+        display: block;
+        content: '';
+    }
 }
 
-// COL MOBILE
+.col{
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
-$columns: 12;
-$columnWidth: 100% / $columns;
 @for $i from 1 through $columns{
-	.col#{$i}{
-		width: $columnWidth * $i; 
-	}
-} 
+    .col#{$i}{
+        width:$columnWidth * $i;
+    }
 
-// COL TABLET
-
-$columns: 12;
-$columnWidth: 100% / $columns;
-@for $i from 1 through $columns{
-	.colM#{$i}{
-		width: $columnWidth * $i; 
-	}
-} 
-
-// COL DESKTOP
-
-$columns: 12;
-$columnWidth: 100% / $columns;
-@for $i from 1 through $columns{
-	.colL#{$i}{
-		width: $columnWidth * $i; 
-	}
-} 
-
-// COL OFFSET MOBILE
-
-$columns: 12;
-$columnWidth: 100% / $columns;
-@for $i from 1 through $columns{
-	.offset#{$i}{
-		margin-left: $columnWidth * $i; 
-	}
-} 
-
-// COL OFFSET TABLET
-
-$columns: 12;
-$columnWidth: 100% / $columns;
-@for $i from 1 through $columns{
-	.offsetM#{$i}{
-		margin-left: $columnWidth * $i; 
-	}
-} 
-
-// COL OFFSET DESKTOP
-
-$columns: 12;
-$columnWidth: 100% / $columns;
-@for $i from 1 through $columns{
-	.offsetL#{$i}{
-		margin-left: $columnWidth * $i; 
-	}
-} 
+    .offset#{$i}{
+        margin-left:$columnWidth * $i;
+    }
+}
 
 
 
-$mainColour: pink;
 
-@mixin colourLayout{
-	color: red;
-	background-color: blue;
+@media (min-width: $mdWidth) {
+    @for $i from 1 through $columns{
+        .colM#{$i}{
+            width:$columnWidth * $i;
+        }
+
+        .offsetM#{$i}{
+            margin-left:$columnWidth * $i;
+        }
+    }
+}
+
+
+
+
+@media (min-width: $lgWidth) {
+    @for $i from 1 through $columns{
+        .colL#{$i}{
+            width:$columnWidth * $i;
+        }
+
+        .offsetL#{$i}{
+            margin-left:$columnWidth * $i;
+        }
+    }
 }
