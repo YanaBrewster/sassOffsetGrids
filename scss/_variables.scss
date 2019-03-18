@@ -4,21 +4,12 @@ $columnWidth: 100% / $columns;
 $mdWidth: 768px;
 $lgWidth: 1200px;
 
+$brandColor: #99CC99;
 
-.row{
-    margin-bottom: 15px;
-    &::after{
-        clear: both;
-        display: block;
-        content: '';
-    }
+.brandColor {
+    background-color: $brandColor;
 }
 
-.col{
-    float: left;
-    padding-right: 15px;
-    padding-left: 15px;
-}
 
 @for $i from 1 through $columns{
     .col#{$i}{
